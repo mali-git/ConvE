@@ -155,6 +155,11 @@ def main():
             e1 = str2var['e1']
             rel = str2var['rel']
             e2_multi = str2var['e2_multi1_binary'].float()
+
+            print("#########e2_multi##########")
+            print(e2_multi)
+            exit(0)
+
             # label smoothing
             e2_multi = ((1.0-Config.label_smoothing_epsilon)*e2_multi) + (1.0/e2_multi.size(1))
 
