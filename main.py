@@ -157,7 +157,7 @@ def main():
             e2_multi = str2var['e2_multi1_binary'].float()
 
             print("#########e2_multi##########")
-            print(e2_multi[:10])
+            print("Shape of e2_multi: ",e2_multi.shape)
             exit(0)
 
             # label smoothing
