@@ -157,7 +157,7 @@ def main():
             e2_multi = str2var['e2_multi1_binary'].float()
 
             print("#########e2_multi##########")
-            print(e2_multi)
+            print(e2_multi[:10])
             exit(0)
 
             # label smoothing
